@@ -15,8 +15,8 @@
   margin-right: 70px;
 }
 
-h1 {
-  color: blue;
+.colorletras {
+  color: rgb(204, 204, 233);
 }
 .CentrarImg {
   display: block;
@@ -30,4 +30,8 @@ h1 {
 }
 .colorNegro{
     color:black;
+}
+.bodyfondo {
+  background-color: #ffdd90;
+  background-image: url("assets/img/fondo.jpg");
 }

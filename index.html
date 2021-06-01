@@ -6,7 +6,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
-    <title>Los pibes del 27</title>
+
     <link rel="Stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -16,36 +16,35 @@
     />
   </head>
 
-  <body class="bodymargen">
-    <h1 class="centrado">Los pibes del 27</h1>
-    <img class="CentrarImg" src="assets/img/pes.jpg" />
-    <p class="letraRoja">La primera pagina oficial de los pibes del 27</p>
+  <body class="bodymargen bodyfondo colorletras">
+    <h1 class="centrado">Mi primera pagina web</h1>
+    <img class="CentrarImg" src="assets/img/img-programacion.jpg" />
+    <p class="letraRoja">La primera pagina oficial </p>
+    
     <div class="container">
       <div class="row">
         <div class="col">
-          <button
-            type="button"
-            class="btn btn-primary"
-            href="https://www.youtube.com/watch?v=GsH8G_AUKfI&list=PLunkhwTNrpFXK8_h6MWBLhj2MPHzDOfUB&index=1"
-            target="blank"
-            class="colorNegro"
-          >
-            Video de los pibes del 27
-          </button>
-        </div>
-        <div class="col">
           <button type="button" class="btn btn-primary">
             <a
-              href="https://www.youtube.com/watch?v=GsH8G_AUKfI&list=PLunkhwTNrpFXK8_h6MWBLhj2MPHzDOfUB&index=1"
+              href="https://www.youtube.com/watch?v=GgnClrx8N2k"
               target="blank"
               class="colorNegro"
             >
-              Video de los pibes del 27
+              Una buena cancion
             </a>
           </button>
         </div>
-        <div class="col"></div>
+        <div class="col">
+          
+        </div>
       </div>
     </div>
+    <a href="javascript:escribir()">Primera parte</a>
+    <div id="cont1"></div>
+    <script>
+      function escribir(){
+      document.getElementById('cont1').innerHTML="Please allow me to introduce myself <br> I'm a man of wealth and taste <br> I've been around for a long, long years <br> Stole million man's soul an faith";
+      }
+      </script>
   </body>
 </html>
