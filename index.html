@@ -45,5 +45,38 @@
       document.getElementById('cont1').innerHTML='please allow me to intriduce myself im man of wealth and taste';
       }
       </script>
+      <p id="description">Encuesta</p>
+      <form id="survey-form">        
+          <label id="name-label">Nombre<input id="name" type="text" placeholder="Ingresa tu nombre" required/></label>
+          <label id="email-label">Email<input id="email" type="email" placeholder="Ingresa tu Email" required/></label>
+          <label id="number-label">Edad (opcional)<input id="number" type="number" min="10" max="99" placeholder="Edad"/></label>
+          <label id="role-label">Cual es tu saga favorita?
+            <select id="dropdown" required>
+              <option selected disabled>Primer año(FAKE)</option>
+              <option>Segundo Año (Best)</option>
+              <option>Tercer Año</option>
+              <option>Cuarto Año</option>
+              <option>Quinto Año</option>
+              <option>Juntadas</option>
+              </select>
+          </label>
+          <label>Recomendarias Los Pibes del 27 a un amigo?
+            <label class="ga"><input type="radio" class="inline" name="recommend" value="1"/>Definitivamente</label>
+            <label class="ga"><input type="radio" class="inline" name="recommend" value="2">Tal vez</label>
+            <label class="ga"><input type="radio" class="inline" name="recommend" value="3"/>No estoy seguro</label>     
+          </label>
+          <label>Que tipo de contenido te gustaria ver? (marca todo lo que aplique)
+            <label class="ga"><input type="checkbox" value="1" class="inline"/>Juntadas</label>
+            <label class="ga"><input type="checkbox" value="2" class="inline"/>Vlogs del Erick</label>
+            <label class="ga"><input type="checkbox" value="3" class="inline"/>Nuevos personajes secundarios</label>
+            <label class="ga"><input type="checkbox" value="4" class="inline"/>Clases de seduccion del Tren (Mexicanas)</label>
+            <label class="ga"><input type="checkbox" value="5" class="inline"/>Los Pibes del 27 en Japon (+18)</label>
+            <label class="ga"><input type="checkbox" value="6" class="inline"/>Streams</label>
+            </label>
+            <label>Escribelo si no esta dentro de las opciones
+              <label class="ga"><textarea id="comments" name="comments" class="text-area" placeholder="Me gustaria que muestren el OVA del Samuel yendo de trampa con el Curty... "></textarea></label>
+              <input id="submit" type="submit"></button>
+            </label>                   
+      </form>
   </body>
 </html>
