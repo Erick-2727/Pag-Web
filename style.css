@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "RobotoSlab-Regular";
+  src: url(assets/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(assets/Montserrat-Regular.ttf);
+}
+
+* {
+  font-family: "RobotoSlab-Regular";
+}
+.bodymargen {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.colorletras {
+  color: rgb(204, 204, 233);
+}
+.CentrarImg {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+.centrado {
+  text-align: center;
+  border: 1px dotted #000;
+  padding: 8px;
+}
+.colorNegro{
+    color:black;
+}
+.bodyfondo {
+  background-color: #ffdd90;
+  background-image: url("assets/img/fondo.jpg");
+}
