@@ -35,3 +35,58 @@
   background-color: #ffdd90;
   background-image: url("assets/img/fondo.jpg");
 }
+body {
+  font-family: Arial;
+  color: white;
+  background-color: rgba(0, 0, 127, 65%);
+  width: 100%;
+  margin:  2em 0 0 10;
+  height: 100vh;
+}
+
+h1, p {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 2em 1em;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  margin: 0.3em 0;
+}
+
+form {
+  background-color: rgba(0, 0, 60, 70%);
+  opacity: 80%;
+  border: none;
+  width: 75%;
+  margin: auto;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 1em 0.7em;
+}
+
+select {
+  width: 100%;
+  height: 30px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.ga {
+  display: block;
+  margin: 0.2em 0;
+}
+
+.text-area {
+  width: 100%;
+  height: 4em;
+}
